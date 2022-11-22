@@ -1,0 +1,22 @@
+How do I create a hidden file or folder?
+touch info.text 
+mv info.text .info.text
+
+How do I display it in the CLI? 
+ls -a 
+
+
+How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+mkdir -p parent/child1/child2/child3/child4/
+
+Write more than one command that will create a file that looks like the following (you are not allowed to use the newline character (\n)):
+first message
+second message
+
+cat > filename.txt <<__E0F__
+>First message
+>Second message
+>Third message
+__E0F__
+
+
